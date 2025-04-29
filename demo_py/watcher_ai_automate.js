@@ -5,7 +5,7 @@ const express = require('express');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const chokidar = require('chokidar');
 
-const api=process.env.GEMINI_API_KEY;
+const api="AIzaSyD3Pj4lkvwQensZ4NzXbhAIFGh_MsRXreM";
 const genAI = new GoogleGenerativeAI(api);
 const app = express();
 const PORT = 5000;

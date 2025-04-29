@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI("AIzaSyBl5lM6Md8_YbDt7o-rmB2SiIyppPT32dU"); // Replace with your Gemini API key
+const genAI = new GoogleGenerativeAI("AIzaSyD3Pj4lkvwQensZ4NzXbhAIFGh_MsRXreM"); // Replace with your Gemini API key
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // Get current directory
